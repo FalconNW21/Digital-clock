@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="fonts\DS-DIGI.TTF" />
+    <None Remove="fonts\DS-DIGIB.TTF" />
+    <None Remove="fonts\DS-DIGII.TTF" />
+    <None Remove="fonts\DS-DIGIT.TTF" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="fonts\DS-DIGI.TTF" />
+    <Resource Include="fonts\DS-DIGIB.TTF" />
+    <Resource Include="fonts\DS-DIGII.TTF" />
+    <Resource Include="fonts\DS-DIGIT.TTF" />
+  </ItemGroup>
+
+</Project>
